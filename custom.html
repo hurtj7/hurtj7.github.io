@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale-1.0, maximum-scale=1.0, user-scaleable=no">
+		<title>Custom</title>
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" href="assets/favicon.ico">
+		
+	</head>
+	
+	<body>
+		<header id="header">
+			<div id="sidebarButton" class="menu" onclick="openNav()">
+				<div class="bars"></div>
+				<div class="bars"></div>
+				<div class="bars"></div>
+			</div>
+			<a href="index.html" class="logo">
+				<img src="assets/vans-logo.png"/>
+			</a>
+		</header>
+		<nav>
+			<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="categories-men.html">MEN</a>
+				<a href="#">WOMEN</a>
+				<a href="#">KIDS</a>
+				<a href="custom.html">CUSTOM</a>
+				<a href="about-us.html">ABOUT US</a>
+			</div>
+		</nav>
+		<section id="section-1" class="section">
+			<div class="style-header">COLOUR SELECT:</div>
+			<div class="gallery">
+				<div class="row">
+					<div class="column">
+						<img src="assets/hi-top-men-1-var1.jpg" onclick="imgSelect(this);"/>
+					</div>
+					<div class="column">
+						<img src="assets/hi-top-men-1-var2.jpg" onclick="imgSelect(this);"/>
+					</div>
+					<div class="column">
+						<img src="assets/hi-top-men-1-var3.jpg" onclick="imgSelect(this);"/>
+					</div>
+					<div class="column">
+						<img src="assets/hi-top-men-1-var4.jpg" onclick="imgSelect(this);"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column">
+						<img src="assets/hi-top-men-1-var5.jpg" onclick="imgSelect(this);"/>
+					</div>
+					<div class="column">
+						<img src="assets/hi-top-men-1-var6.jpg" onclick="imgSelect(this);"/>
+					</div>
+					<div class="column">
+						<img src="assets/hi-top-men-1-var7.jpg" onclick="imgSelect(this);"/>
+					</div>
+					<div class="column">
+						<img src="assets/hi-top-men-1-var8.jpg" onclick="imgSelect(this);"/>
+					</div>
+				</div>
+			</div>
+			<div class="expanded-img-wrap">
+				<img id="expanded-img"/>
+			</div>
+		</section>
+		<script src="js/script.js"></script>
+		<script src="js/gallery.js"></script>
+	</body>
+</html>

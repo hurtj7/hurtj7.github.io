@@ -104,7 +104,7 @@ a:visited {
 	color: red;
 }
 
-.catagories {
+.section {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -118,13 +118,13 @@ a:visited {
 	position: relative;
 }
 
-.catagories ul {
+.section ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 }
 
-.catagories ul li a span {
+.section ul li a span {
 	display: block;
 	padding-top: 1em;
 	padding-right: 2em;
@@ -237,6 +237,7 @@ a:visited {
 	text-align: left;
 	margin: 0.25em;
 }
+
 .video-wrap {
 	display: block;
 	width: 100%;
@@ -246,6 +247,7 @@ a:visited {
 	float: center;
 	margin : 1em auto;
 }
+
 .info {
 	background-color: #ffffff;
 	float: center;
@@ -257,10 +259,12 @@ a:visited {
 	border-style: solid;
 	border-width: 0.025em;
 }
+
 .info h1 {
 	font-size: 1.5rem;
 	text-align: center;
 }
+
 .info p {
 	font-size: 0.775em;
 	color: #51514f;
@@ -269,6 +273,7 @@ a:visited {
 	margin: 0.25em;
 	font-weight: 50;
 }
+
 .social-media-wrap {
 	background-color: #1c1c1c;
 	float: center;
@@ -277,6 +282,7 @@ a:visited {
 	max-width: 500px;
 	margin: 1em auto;
 }
+
 .sub-heading {
 	color: #fff;
 	display: block;
@@ -287,11 +293,13 @@ a:visited {
 	padding-top: 1em;
 	text-align: center;
 }
+
 .social-icons {
 	float: center;
 	text-align: center;
 	padding: 1em;
 }
+
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -303,15 +311,59 @@ a:visited {
   color: #ffffff;
   margin: 0.5em;
 }
+
 .fa-facebook:hover {
 	background-color: #4267b2
 }
+
 .fa-twitter:hover {
 	background-color: #30a0f2
 }
+
 .fa-instagram:hover {
 	background-color: #da2f7b
 }
+
 .fa-youtube:hover {
 	background-color: #f90101
+}
+
+.style-header {
+	display: block;
+	margin: 0.5em 0.5em;
+}
+
+.column {
+	float: center;
+	width: 25%;
+	padding-bottom: 1em;
+	float: left;
+}
+
+.column img {
+	opacity: 1;
+	cursor: pointer;
+	max-width: 3.75em;
+	height: auto;
+}
+
+.row {
+	margin: auto;
+	max-width: 400px;
+	float: center;
+	display: block;
+	
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.expanded-img-wrap img {
+	display: block;
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
 }
